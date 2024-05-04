@@ -16,12 +16,12 @@ const Navbar = () => {
       <div className="px-20 mx-auto  flex justify-between items-center">
         {/* Left Section */}
         <div className="flex-shrink-0">
-          <img className='object-cover w-[250px]' src={logo} alt="Logo" />
+       <Link to={'/'}>  <img className='object-cover w-[250px]' src={logo} alt="Logo" /> </Link> 
         </div>
 
         {/* Middle Section */}
         <div className="hidden md:flex space-x-6">
-          <Link to={'/'} className="text-[#666666] text-sm font-proxima">WHY US</Link>
+          <Link to={'/why-us'} className="text-[#666666] text-sm font-proxima">WHY US</Link>
           <Link to={'/'} className="text-[#666666] text-sm font-proxima">SERVICES</Link>
           <Link to={'/'} className="text-[#666666] text-sm font-proxima">WORK</Link>
           <Link to={'/'} className="text-[#666666] text-sm font-proxima">ABOUT</Link>
@@ -57,8 +57,8 @@ const Navbar = () => {
             transition={{ duration: 0.3 }}
             className="md:hidden overflow-hidden"
           >
-            <div className="flex flex-col items-center mt-4">
-              <Link to={'/'} className="text-white mb-2" onClick={toggleMenu}>WHY US</Link>
+            <div className="flex flex-col  items-center mt-4 bg-primary p-4">
+              <Link to={'/'} className="text-white mb-2 " onClick={toggleMenu}>WHY US</Link>
               <Link to={'/'} className="text-white mb-2" onClick={toggleMenu}>SERVICES</Link>
               <Link to={'/'} className="text-white mb-2" onClick={toggleMenu}>WORK</Link>
               <Link to={'/'} className="text-white mb-2" onClick={toggleMenu}>ABOUT</Link>
