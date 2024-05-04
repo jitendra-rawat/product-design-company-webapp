@@ -24,12 +24,12 @@ const Footer = () => {
             <p className='text-secondary font-bold text-xl text-center mb-2'>www.innocreateglobal.com</p>
 
             <div className='border-b border-secondary mb-4'></div>
-            <p className='text-lg text-secondary font-bold'>With our extensive industry expertise, we craft innovative product solutions, ensuring client success. A focus on customer satisfaction and an aim to exceed expectations, we deliver exceptional value in every project.
+            <p className='text-xl text-justify text-secondary font-bold'>With our extensive industry expertise, we craft innovative product solutions, ensuring client success. A focus on customer satisfaction and an aim to exceed expectations, we deliver exceptional value in every project.
 </p>
 
 <p className='text-lg text-secondary mt-4 font-bold'>GET YOUR FREE NO-OBLIGATION CONSULTATION!</p>
 
-<button className='bg-primary p-3 rounded-lg mt-2 text-white'>BOOK CONSULTATION</button>
+<button className='bg-primary py-3 px-6 rounded-lg mt-2 text-white'>BOOK CONSULTATION</button>
 
         </div>
 
@@ -40,14 +40,14 @@ const Footer = () => {
                 <h4 className='text-2xl text-primary font-bold mb-8'>Links</h4>
 
                 <ul>
-                    <li className='text-lg my-4 font-bold text-secondary'>WHY US</li>
-                    <li className='text-lg my-4 font-bold text-secondary'>SERVICES</li>
-                    <li className='text-lg my-4 font-bold text-secondary'>WORK</li>
-                    <li className='text-lg my-4 font-bold text-secondary'>ABOUT</li>
-                    <li className='text-lg my-4 font-bold text-secondary'>BLOG</li>
+                    <li className='text-lg my-5 font-bold text-secondary'>WHY US</li>
+                    <li className='text-lg my-5 font-bold text-secondary'>SERVICES</li>
+                    <li className='text-lg my-5 font-bold text-secondary'>WORK</li>
+                    <li className='text-lg my-5 font-bold text-secondary'>ABOUT</li>
+                    <li className='text-lg my-5 font-bold text-secondary'>BLOG</li>
                 </ul>
 
-                <h4 className='text-lg  font-bold text-secondary mt-28'>Promoting:</h4>
+                <h4 className='text-lg  font-bold text-secondary mt-32'>Promoting:</h4>
                 <img src={make} alt="" />
             
             </div>
@@ -63,7 +63,7 @@ const Footer = () => {
 
         <div className='flex items-center gap-2'>
             <img src={mail} alt="" />
-            <p className='text-lg  font-bold text-secondary'>arwind@innocreatedesign.com</p>
+            <p className='text-lg  font-bold text-secondary mb-2'>arwind@innocreatedesign.com</p>
         </div>
 
 
@@ -86,7 +86,7 @@ const Footer = () => {
  </div>
 
 
-  <div className='mt-20'>
+  <div className='mt-24'>
     <p className=' text-lg font-bold text-secondary'>Registered With:</p>
 
     <div className='flex gap-2'>

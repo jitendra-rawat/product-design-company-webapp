@@ -24,8 +24,8 @@ const Contact = () => {
 
     {/* left section */}
     <div className='flex-1'>
-        <h3 className='text-6xl text-secondary font-bold mb-4'>LET'S <br /> CONNECT</h3>
-        <p className='text-4xl text-primary font-bold  '>Design in India <br /> for the world</p>
+        <h3 className='text-[100px] leading-[100px] text-[#D6D6D6] font-bold mb-4'>LET'S <br /> CONNECT</h3>
+        <p className='text-[55px] leading-[60px] text-primary font-bold  '>Design in India, <br /> for the world !</p>
 
     </div>
 

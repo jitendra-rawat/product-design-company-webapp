@@ -12,7 +12,7 @@ const What = () => {
   const [isHoveredFourth, setIsHoveredFourth] = useState(false);
 
   return (
-    <section className='max-w-5xl mx-auto container py-24 my-20'>
+    <section className='max-w-5xl mx-auto container py-24 '>
 
       <h5 className='text-primary text-[40px] font-bold'>What</h5>
       <h5 className='text-primary text-[40px] font-bold'>We Do</h5>
@@ -27,9 +27,9 @@ const What = () => {
           onMouseLeave={() => setIsHovered(false)}
         >
 
-            <div className={`text-white  bg-primary text-center ${isHovered ? 'opacity-0' : 'opacity-100'}`}>
+            <div className={`text-white   bg-primary text-center ${isHovered ? 'opacity-0' : 'opacity-100'}`}>
             <img src={what1} className='object-cover' alt='' />
-          <div className='px-4 py-8' >
+          <div className='px-12 py-4' >
             <p className='text-[25px] font-bold'>INCUBATION SUPPORT</p>
             <p className='text-[25px] font-bold'>FOR STARTUPS AND MSMEs</p>
             <div className='border-t border-white mt-4 max-w-xs mx-auto'></div>
@@ -80,7 +80,7 @@ const What = () => {
 
             <div className={`text-white  bg-primary text-center ${isHoveredSecond ? 'opacity-0' : 'opacity-100'}`}>
             <img src={what2} className='object-cover' alt='' />
-          <div className='px-4 py-8' >
+            <div className='px-12 py-4' >
             <p className='text-[25px] font-bold'>PRODUCT DESIGN </p>
             <p className='text-[25px] font-bold'>& DEVELOPMENT</p>
             <div className='border-t border-white mt-4 max-w-xs mx-auto'></div>
@@ -127,7 +127,7 @@ const What = () => {
 
 
       
-      <div className='flex  justify-between items-center mt-56'>
+      <div className='flex  justify-between items-center mt-36'>
 
 
          {/* thir card */}
@@ -139,7 +139,7 @@ const What = () => {
 
             <div className={`text-white  bg-primary text-center ${isHoveredThird ? 'opacity-0' : 'opacity-100'}`}>
             <img src={what3} className='object-cover' alt='' />
-          <div className='px-4 py-8' >
+            <div className='px-12 py-4' >
             <p className='text-[25px] font-bold'>ENGINEERING
  </p>
             <p className='text-[25px] font-bold'>DESIGN </p>
@@ -192,7 +192,7 @@ const What = () => {
 
             <div className={`text-white  bg-primary text-center ${isHoveredFourth ? 'opacity-0' : 'opacity-100'}`}>
             <img src={what4} className='object-cover' alt='' />
-          <div className='px-4 py-8' >
+            <div className='px-12 py-4' >
             <p className='text-[25px] font-bold'>MANUFACTURE
  </p>
             <p className='text-[25px] font-bold'>ENGINEERING</p>

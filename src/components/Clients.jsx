@@ -10,16 +10,16 @@ const Clients = () => {
   return (
     <section className='py-20 px-10 container mx-auto  '>
 
-<h3 className='text-4xl text-primary font-bold'>Our Clients</h3>
+<h3 className='text-[45px] text-primary leading-snug font-bold'>Our Clients</h3>
 
 
-<div className='flex flex-wrap justify-between items-center mt-4 px-20'>
+<div className='flex flex-wrap justify-between items-center mt-8 px-4'>
 
-    <img src={image1} alt="" />
-    <img src={image2} alt="" />
-    <img src={image3} alt="" />
-    <img src={image4} alt="" />
-    <img src={image5} alt="" />
+    <img className='object-cover' src={image1} alt="" />
+    <img className='object-cover' src={image2} alt="" />
+    <img className='object-cover' src={image3} alt="" />
+    <img className='object-cover' src={image4} alt="" />
+    <img className='object-cover' src={image5} alt="" />
 
 </div>
 
@@ -27,7 +27,7 @@ const Clients = () => {
   {/* slogan */}
 
     <div className='max-w-4xl mx-auto container mt-28'>
-        <p className='text-primary font-bold text-lg text-center'>We strive for excellence in the entire product design & development process. While this may sound cliché, there’s a deeper meaning to it. For us, “Design for excellence is not just a tagline, it's our work culture.”</p>
+        <p className='text-primary text-[32px] leading-tight  text-lg text-center'>We strive for excellence in the entire product design & development process. While this may sound cliché, there’s a deeper meaning to it. For us,<span className='text-secondary'> “Design for excellence is not just a tagline, it's our work culture.”</span> </p>
     </div>
 
         </section>
