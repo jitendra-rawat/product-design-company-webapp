@@ -22,7 +22,7 @@ const Navbar = () => {
         {/* Middle Section */}
         <div className="hidden md:flex space-x-6">
           <Link to={'/why-us'} className="text-[#666666] text-sm font-proxima">WHY US</Link>
-          <Link to={'/'} className="text-[#666666] text-sm font-proxima">SERVICES</Link>
+          <Link to={'/services'} className="text-[#666666] text-sm font-proxima">SERVICES</Link>
           <Link to={'/'} className="text-[#666666] text-sm font-proxima">WORK</Link>
           <Link to={'/'} className="text-[#666666] text-sm font-proxima">ABOUT</Link>
           <Link to={'/'} className="text-[#666666] text-sm font-proxima">BLOG</Link>
