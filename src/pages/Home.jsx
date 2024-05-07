@@ -5,6 +5,7 @@ import Industry from '../components/Industry'
 import Work from '../components/Work'
 import Clients from '../components/Clients'
 import Contact from '../components/Contact'
+import Slogan from '../components/Slogan'
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
    <Industry />
    <Work />
    <Clients />
+   <Slogan />
    <Contact />
     </div>
   )
