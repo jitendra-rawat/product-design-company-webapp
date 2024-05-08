@@ -1,4 +1,12 @@
 import React from 'react'
+import work1 from '../assets/work1.png'
+import work2 from '../assets/work2.png'
+import work3 from '../assets/work3.png'
+import work4 from '../assets/work4.png'
+import work5 from '../assets/work5.png'
+import work6 from '../assets/work6.png'
+import work7 from '../assets/work7.png'
+
 
 const Work = () => {
   return (
@@ -57,21 +65,26 @@ const Work = () => {
 
         {/* cards */}
 
-        <div className='mt-8 flex flex-wrap  gap-1 justify-between items-center'>
+        <div className='mt-8 flex flex-wrap   justify-between items-center'>
 
-<img className='rounded-xl' src="https://placehold.co/300x300" alt="" />
-<img className='rounded-xl' src="https://placehold.co/300x300" alt="" />
-<img className='rounded-xl' src="https://placehold.co/300x300" alt="" />
-<img className='rounded-xl' src="https://placehold.co/300x300" alt="" />
+<img  className='rounded-xl w-[350px] h-[350px] object-contain' src={work2} alt="" />
+<img className='rounded-xl w-[350px] h-[350px] object-contain' src={work2} alt="" />
+<img className='rounded-xl w-[350px] h-[350px] object-contain' src={work3} alt="" />
+<img className='rounded-xl w-[350px] h-[350px] object-contain' src={work4} alt="" />
 
         </div>
 
-        <div className='mt-8 flex flex-wrap  gap-1 justify-between items-center'>
 
-<img className='rounded-xl' src="https://placehold.co/300x300" alt="" />
-<img className='rounded-xl' src="https://placehold.co/300x300" alt="" />
-<img className='rounded-xl' src="https://placehold.co/300x300" alt="" />
-<img className='rounded-xl' src="https://placehold.co/300x300" alt="" />
+
+ <div className='mt-8 flex flex-wrap  gap-1 justify-between items-center'>
+
+<img className='rounded-xl w-[350px] h-[350px] object-contain' src={work5} alt="" />
+<img className='rounded-xl w-[350px] h-[350px] object-contain' src={work6} alt="" />
+<img className='rounded-xl w-[350px] h-[350px] object-contain' src={work7} alt="" />
+<div className='rounded-xl w-[350px] h-[350px] bg-primary flex justify-center items-center'>
+    <p className='text-[30px] text-white  font-bold'>View All</p>
+
+</div>
 
 
 

@@ -6,7 +6,18 @@ import services3 from '../assets/service3.png'
 
 import Contact from '../components/Contact'
 
+import { LuClock5 } from "react-icons/lu";
+import { IoCallOutline } from "react-icons/io5";
+import { CiMail } from "react-icons/ci";
 
+import { IoLocationOutline } from "react-icons/io5";
+
+import link from '../assets/link.png'
+import insta from '../assets/insta.png'
+import fb from '../assets/fb.png'
+import icon from '../assets/icon.png'
+
+import { PiPaperPlaneRightLight } from "react-icons/pi";
 
 
 
@@ -17,11 +28,11 @@ const ContactPage = () => {
 
       {/* header section */}
 
-<header className='bg-header py-44'>
+<header className='bg-header pt-60 h-screen'>
 
 <div className='max-w-5xl mx-auto container '>
-   <h2 className='text-primary text-[50px] mb-2 font-bold leading-[50px]'>Your Growth Journey  </h2>
-   <h2  className='text-primary text-[50px] font-bold leading-[50px]'>Starts Here!</h2>
+   <h2 className='text-primary text-[65px] mb-2 font-bold leading-[60px]'>Your Growth Journey  </h2>
+   <h2  className='text-primary text-[65px] font-bold leading-[60px]'>Starts Here!</h2>
 
 
    <button className="mt-16 bg-primary font-bold leading-[20px] text-white font-proxima text-base px-8 py-4 rounded-lg text-left flex  gap-2 items-center">
@@ -49,39 +60,95 @@ const ContactPage = () => {
 
 
 
-  {/* icon cards */}
 
-<div className='mt-20 py-10  flex justify-between items-center '>
-
-    {/* first card */}
-
-    <div className='w-[300px] h-[400px]'>
-<img className='w-[80px] h-[80px]' src={services1} alt="" />
-<h5 className='text-[32px] font-bold text-primary mt-4 leading-snug'>innovative
-solutions</h5>
-<p className=' text-primary text-[20px] font-bold mt-2 leading-snug' >Our studio specializes in delivering innovative design solutions tailored to the unique needs and challenges of our clients. By combining creativity with technical expertise, we conceptualize and develop products that stand out in the market, captivate consumers, and drive business growth</p>
-    </div>
-
-        {/* second card */}
-
-        <div className='w-[300px] h-[400px]'>
-<img className='w-[80px] h-[80px]' src={services2} alt="" />
-<h5 className='text-[32px] font-bold text-primary mt-4 leading-snug'>Efficient Development </h5>
-<p className=' text-primary text-[20px] font-bold mt-2 leading-snug' >We streamline the product development process, saving our clients time, resources, and effort. From initial ideation to final production, we employ efficient workflows and utilize advanced technologies to accelerate project timelines without compromising quality. </p>
-    </div>
+   {/* contact details */}
 
 
-         {/* third card */}
-
-    <div className='w-[300px] h-[400px]'>
-<img className='w-[80px] h-[80px]' src={services3} alt="" />
-<h5 className='text-[32px] font-bold text-primary mt-4 leading-snug'>Comprehensive Expertise</h5>
-<p className=' text-primary text-[20px] font-bold mt-2 leading-snug' >With a multidisciplinary team of industrial designers, engineers, and strategists, our studio offers comprehensive expertise across all stages of the design process. Whether it's product design, user experience optimization, or manufacturing support, we have the skills and knowledge to deliver holistic solutions that meet our clients' objectives.</p>
-    </div>
+    <div className='mt-8 flex items-start justify-between'>
 
 
+       {/* left side */}
+       <div>
+
+        <div className='flex items-start gap-2'>
+
+        <CiMail size={30} color='blue'/>
+          <div>
+            <p className='text-[32px] text-primary leading-6 font-bold'>Email</p>
+            <p className='text-[22px] text-secondary mt-2'>arvind@innocreatedesigns.com</p>
+          </div>
+
+        </div>
+
+        <div className='flex gap-2 mt-8'>
+
+        <IoCallOutline size={30} color='blue' />
+<div>
+  <p className='text-[32px] text-primary leading-6 font-bold'>Call us</p>
+  <p className='text-[22px] text-secondary mt-2'>(+91) 88595 05051</p>
+</div>
+
+</div>  
+
+
+<div className='flex gap-2 mt-8'>
+
+<LuClock5 size={30} color='blue' />
+<div>
+  <p className='text-[32px] text-primary leading-6 font-bold'>Work Timings</p>
+  <p className='text-[22px] text-secondary mt-2'>Monday - Saturday</p>
+  <p className='text-[22px] text-secondary'>9:30 AM to 6:30 PM</p>
+</div>
 
 </div>
+
+       </div>
+
+
+
+         {/* right side */}
+         <div>
+
+        <div className='flex gap-2'>
+
+        <IoLocationOutline size={30} color='blue' />
+          <div>
+            <div>
+            <p className='text-[32px] text-primary leading-6 font-bold'>India Office</p>
+            <p className='text-[22px] text-secondary mt-2'>Dehradun, Uttarakhand - India</p>
+            </div>
+     
+            <div>
+            <p className='text-[32px] text-primary leading-6 mt-8 font-bold'>USA Office</p>
+            <p className='text-[22px] text-secondary mt-2'>Saratoga, CA USA</p>
+            </div>
+          </div>
+
+        </div>
+
+        <div className='flex gap-2 mt-8'>
+
+        <PiPaperPlaneRightLight size={30} color='blue'  />
+<div>
+  <p className='text-[32px] text-primary leading-6 font-bold'>Follow Us</p>
+ <div className='flex gap-4 mt-4'>
+  <img src={link} alt="" />
+  <img src={fb} alt="" />
+  <img src={insta} alt="" />
+  <img src={icon} alt="" />
+
+ </div>
+</div>
+
+</div>  
+
+
+
+       </div>
+
+    </div>
+
+
 
 
    <div className='mt-40 boredr-t border border-secondary'></div>

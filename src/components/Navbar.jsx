@@ -21,20 +21,20 @@ const Navbar = () => {
 
         {/* Middle Section */}
         <div className="hidden md:flex space-x-6">
-          <Link to={'/why-us'} className="text-[#666666] text-sm font-proxima">WHY US</Link>
-          <Link to={'/services'} className="text-[#666666] text-sm font-proxima">SERVICES</Link>
-          <Link to={'/our-work'} className="text-[#666666] text-sm font-proxima">WORK</Link>
-          <Link to={'/about'} className="text-[#666666] text-sm font-proxima">ABOUT</Link>
-          <Link to={'/'} className="text-[#666666] text-sm font-proxima">BLOG</Link>
-          <Link to={'/contact'} className="text-[#666666] text-sm font-proxima">CONTACT US</Link>
+          <Link to={'/why-us'} className="text-[#666666] text-sm font-proxima focus:border-b-2 focus:bg-[#F5F5F5] p-2 focus:border-b-secondary">WHY US</Link>
+          <Link to={'/services'} className="text-[#666666] text-sm font-proxima focus:border-b-2 focus:bg-[#F5F5F5] p-2 focus:border-b-secondary">SERVICES</Link>
+          <Link to={'/our-work'} className="text-[#666666] text-sm font-proxima focus:border-b-2 focus:bg-[#F5F5F5] p-2 focus:border-b-secondary">WORK</Link>
+          <Link to={'/about'} className="text-[#666666] text-sm font-proxima focus:border-b-2 focus:bg-[#F5F5F5] p-2 focus:border-b-secondary">ABOUT</Link>
+          <Link to={'/'} className="text-[#666666] text-sm font-proxima focus:border-b-2 focus:bg-[#F5F5F5] p-2 focus:border-b-secondary">BLOG</Link>
+          <Link to={'/contact'} className="text-[#666666] text-sm font-proxima focus:border-b-2 focus:bg-[#F5F5F5] p-2 focus:border-b-secondary">CONTACT US</Link>
         </div>
 
         {/* Third Section */}
         <div className="hidden md:flex space-x-2">
-          <button className="bg-primary font-bold leading-[20px] text-white font-proxima text-sm px-4 py-2 rounded-xl text-left flex gap-2 items-center">
+          <button className="bg-primary font-bold leading-[20px] text-white font-proxima text-sm px-2 py-2 rounded-xl text-left flex gap-2 items-center">
             <img className='object-contain' src={calender} alt="" />
             BOOK <br />  CONSULTATION</button>
-          <p className="px-4 py-2 rounded-md text-main text-sm font-bold font-proxima">CALL US <br /> <span className='text-secondary'> (+91) 88595 05051 </span></p>
+          <p className="px-2 py-2 rounded-md text-main text-sm font-bold font-proxima">CALL US <br /> <span className='text-secondary'> (+91) 88595 05051 </span></p>
         </div>
 
         {/* Hamburger Menu (Mobile) */}

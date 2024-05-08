@@ -38,11 +38,11 @@ const Services = () => {
 
       {/* header section */}
 
-<header className='bg-header py-44'>
+      <header className='bg-header pt-60 h-screen'>
 
 <div className='max-w-5xl mx-auto container '>
-   <h2 className='text-primary text-[50px] mb-2 font-bold leading-[50px]'>Empowering Innovators </h2>
-   <h2  className='text-primary text-[50px] font-bold leading-[50px]'>Designing Dreams</h2>
+   <h2 className='text-primary text-[65px] mb-2 font-bold leading-[60px]'>EMPOERING INNOVTORS</h2>
+   <h2  className='text-primary text-[65px] font-bold leading-[60px]'>DESIGNING DREAMS</h2>
 
 
    <button className="mt-16 bg-primary font-bold leading-[20px] text-white font-proxima text-base px-8 py-4 rounded-lg text-left flex  gap-2 items-center">
