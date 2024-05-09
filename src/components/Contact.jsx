@@ -20,12 +20,12 @@ const Contact = () => {
     
 
   return (
-   <section className='py-20 max-w-5xl mx-auto container flex items-start justify-between'>
+   <section className='py-20 max-w-6xl mx-auto container flex items-start justify-between'>
 
     {/* left section */}
     <div className='flex-1'>
-        <h3 className='text-[100px] leading-[100px] text-[#D6D6D6] font-bold mb-4'>LET'S <br /> CONNECT</h3>
-        <p className='text-[55px] leading-[60px] text-primary font-bold  '>Design in India, <br /> for the world !</p>
+        <h3 className='text-[100px] leading-[100px] text-[#D6D6D6] font-bold '>LET'S <br /> CONNECT</h3>
+        <p className='text-[55px] leading-[60px] text-primary font-bold mt-2 '>Design in India, <br /> for the world !</p>
 
     </div>
 
@@ -95,7 +95,7 @@ const Contact = () => {
           required
         />
       </div>
-      <div className="flex items-center justify-between">
+      <div className="flex items-center justify-between mt-8">
         <button
           className="bg-primary text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline focus:outline-none "
           type="submit"

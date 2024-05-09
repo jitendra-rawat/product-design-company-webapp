@@ -31,6 +31,10 @@ import si11 from '../assets/si11.png'
 import si12 from '../assets/si12.png'
 
 
+import Slogan from '../components/Slogan'
+import OurWork from '../components/OurWork'
+
+
 
 const Services = () => {
   return (
@@ -40,7 +44,7 @@ const Services = () => {
 
       <header className='bg-header pt-60 h-screen'>
 
-<div className='max-w-5xl mx-auto container '>
+<div className='max-w-6xl mx-auto container '>
    <h2 className='text-primary text-[65px] mb-2 font-bold leading-[60px]'>EMPOERING INNOVTORS</h2>
    <h2  className='text-primary text-[65px] font-bold leading-[60px]'>DESIGNING DREAMS</h2>
 
@@ -315,41 +319,11 @@ CONSULTATION</p>
    {/* our work */}
 
 
-   <section className='mt-24 py-20 px-10 container mx-auto bg-[#F9F9F9] '>
-
-
-
-
- 
-       <h3 className='text-primary text-[45px] font-bold   '>Our Work</h3>
- 
-
-  
-
-  
-
-
-    {/* cards */}
-
-    <div className='mt-8 flex flex-wrap  gap-1 justify-between items-center'>
-
-<img className='rounded-xl' src="https://placehold.co/300x300" alt="" />
-<img className='rounded-xl' src="https://placehold.co/300x300" alt="" />
-<img className='rounded-xl' src="https://placehold.co/300x300" alt="" />
-<img className='rounded-xl' src="https://placehold.co/300x300" alt="" />
-
-    </div>
-
-  
-
-   </section>
-
+  <OurWork />
 
      {/* slogan */}
 
-     <div className='max-w-4xl mx-auto container py-20'>
-        <p className='text-primary text-[32px] leading-tight  text-lg text-center'>We strive for excellence in the entire product design & development process. While this may sound cliché, there’s a deeper meaning to it. For us,<span className='text-secondary'> “Design for excellence is not just a tagline, it's our work culture.”</span> </p>
-    </div>
+   <Slogan />
 
 
    </section>

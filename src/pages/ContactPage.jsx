@@ -30,7 +30,7 @@ const ContactPage = () => {
 
 <header className='bg-header pt-60 h-screen'>
 
-<div className='max-w-5xl mx-auto container '>
+<div className='max-w-6xl mx-auto container '>
    <h2 className='text-primary text-[65px] mb-2 font-bold leading-[60px]'>Your Growth Journey  </h2>
    <h2  className='text-primary text-[65px] font-bold leading-[60px]'>Starts Here!</h2>
 
@@ -49,7 +49,7 @@ const ContactPage = () => {
 
    {/* contact */}
 
-   <section className=' max-w-5xl container mx-auto  '>
+   <section className=' max-w-6xl container mx-auto  '>
 
 
 
@@ -72,7 +72,7 @@ const ContactPage = () => {
 
         <div className='flex items-start gap-2'>
 
-        <CiMail size={30} color='blue'/>
+        <CiMail size={30} color='0F3177'/>
           <div>
             <p className='text-[32px] text-primary leading-6 font-bold'>Email</p>
             <p className='text-[22px] text-secondary mt-2'>arvind@innocreatedesigns.com</p>
@@ -82,7 +82,7 @@ const ContactPage = () => {
 
         <div className='flex gap-2 mt-8'>
 
-        <IoCallOutline size={30} color='blue' />
+        <IoCallOutline size={30} color='0F3177' />
 <div>
   <p className='text-[32px] text-primary leading-6 font-bold'>Call us</p>
   <p className='text-[22px] text-secondary mt-2'>(+91) 88595 05051</p>
@@ -93,7 +93,7 @@ const ContactPage = () => {
 
 <div className='flex gap-2 mt-8'>
 
-<LuClock5 size={30} color='blue' />
+<LuClock5 size={30} color='0F3177' />
 <div>
   <p className='text-[32px] text-primary leading-6 font-bold'>Work Timings</p>
   <p className='text-[22px] text-secondary mt-2'>Monday - Saturday</p>
@@ -111,7 +111,7 @@ const ContactPage = () => {
 
         <div className='flex gap-2'>
 
-        <IoLocationOutline size={30} color='blue' />
+        <IoLocationOutline size={30} color='0F3177' />
           <div>
             <div>
             <p className='text-[32px] text-primary leading-6 font-bold'>India Office</p>
@@ -128,7 +128,7 @@ const ContactPage = () => {
 
         <div className='flex gap-2 mt-8'>
 
-        <PiPaperPlaneRightLight size={30} color='blue'  />
+        <PiPaperPlaneRightLight size={30} color='0F3177'  />
 <div>
   <p className='text-[32px] text-primary leading-6 font-bold'>Follow Us</p>
  <div className='flex gap-4 mt-4'>

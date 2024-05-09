@@ -14,7 +14,7 @@ const Footer = () => {
   return (
    <footer className='bg-header py-24'>
 
-    <div className='max-w-5xl mx-auto container flex  justify-between items-start'>
+    <div className='max-w-6xl mx-auto container flex  justify-between items-start'>
 
         {/* first section */}
         <div className=' w-1/3'>
@@ -23,7 +23,7 @@ const Footer = () => {
             <p className='text-primary font-bold text-xl text-center'>Guiding Force -  InnoCreate Global - USA</p>
             <p className='text-secondary font-bold text-xl text-center mb-2'>www.innocreateglobal.com</p>
 
-            <div className='border-b border-secondary mb-4'></div>
+            <div className='border-b border-secondary mb-8'></div>
             <p className='text-xl text-justify text-secondary font-bold'>With our extensive industry expertise, we craft innovative product solutions, ensuring client success. A focus on customer satisfaction and an aim to exceed expectations, we deliver exceptional value in every project.
 </p>
 
@@ -47,7 +47,7 @@ const Footer = () => {
                     <li className='text-lg my-5 font-bold text-secondary'>BLOG</li>
                 </ul>
 
-                <h4 className='text-lg  font-bold text-secondary mt-32'>Promoting:</h4>
+                <h4 className='text-lg  font-bold text-secondary mt-20'>Promoting:</h4>
                 <img src={make} alt="" />
             
             </div>
@@ -86,10 +86,10 @@ const Footer = () => {
  </div>
 
 
-  <div className='mt-24'>
+  <div className='mt-10'>
     <p className=' text-lg font-bold text-secondary'>Registered With:</p>
 
-    <div className='flex gap-2'>
+    <div className='mt-2 flex  justify-between'>
         <img src={msme} alt="" />
         <img src={start} alt="" />
     </div>
@@ -103,9 +103,9 @@ const Footer = () => {
 
     </div>
 
-    <div className="max-w-5xl mx-auto container border-b border-gray-400 mt-14"></div>
+    <div className="max-w-6xl mx-auto container border-b border-gray-400 mt-14"></div>
 
-    <div className='max-w-5xl mx-auto container flex justify-between items-center mt-2'>
+    <div className='max-w-6xl mx-auto container flex justify-between items-center mt-2'>
 
         
 

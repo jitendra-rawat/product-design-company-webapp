@@ -5,6 +5,7 @@ import why2 from '../assets/why2.png'
 import why3 from '../assets/why3.png'
 
 import Slogan from '../components/Slogan'
+import OurWork from '../components/OurWork'
 
 import work1 from '../assets/work1.png'
 import work2 from '../assets/work2.png'
@@ -16,6 +17,8 @@ import work7 from '../assets/work7.png'
 
 
 
+
+
 const Why = () => {
   return (
    <section>
@@ -24,7 +27,7 @@ const Why = () => {
 
       <header className='bg-header pt-60 h-screen'>
 
-<div className='max-w-5xl mx-auto container '>
+<div className='max-w-6xl mx-auto container '>
    <h2 className='text-primary text-[65px] mb-2 font-bold leading-[60px]'>DESIGNING THE </h2>
    <h2 className='text-primary text-[65px] mb-2 font-bold leading-[60px]'>FUTURE </h2>
    <h2  className='text-primary text-[65px] font-bold leading-[60px]'>DELIVERING TODAY</h2>
@@ -44,7 +47,7 @@ const Why = () => {
 
    {/* why us */}
 
-   <section className=' max-w-5xl container mx-auto  '>
+   <section className=' max-w-6xl container mx-auto  '>
 
 
 
@@ -123,29 +126,7 @@ const Why = () => {
 
    {/* our work */}
 
-
-   <section className='py-20   container mx-auto bg-[#F9F9F9] px-8'>
-
-   <h3 className='text-primary text-[45px] font-bold   '>Our Work</h3>
-
-   <div className='mt-8 flex    justify-between items-center'>
-
-<img className='rounded-xl w-[350px] h-[350px] object-contain' src={work1} alt="" />
-<img className='rounded-xl w-[350px] h-[350px] object-contain' src={work2} alt="" />
-<img className='rounded-xl w-[350px] h-[350px] object-contain' src={work3} alt="" />
-
-<div className='rounded-xl w-[350px] h-[350px] bg-primary flex justify-center items-center'>
-    <p className='text-[30px] text-white  font-bold'>VIEW MORE</p>
-
-</div>
-
-
-
-        </div>
-
-  
-
-   </section>
+ <OurWork />
 
 
      {/* slogan */}

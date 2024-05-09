@@ -5,20 +5,20 @@ import focus3 from '../assets/focus3.png'
 
 const Industry = () => {
   return (
-   <section className='py-20 max-w-5xl container mx-auto  '>
+   <section className='py-20 max-w-6xl container mx-auto  '>
 
- <div className='flex space-x-8 justify-between items-start '>
+ <div className='flex space-x-16 justify-between items-start '>
 
 
   {/* left section */}
   
     <div>
-        <h3 className='text-primary text-4xl space-x-4 leading-[55px]  font-bold'>Industry <br /> Experience</h3>
+        <h3 className='text-primary text-[45px] space-x-4 leading-[55px]  font-bold'>Industry <br /> Experience</h3>
     </div>
 
     {/* right section */}
 
-    <div className='flex flex-wrap space-y-2 justify-between items-center'>
+    <div className='flex flex-wrap space-x-1 space-y-2 justify-between items-center'>
 
         <div className='border-2 rounded-full  border-secondary py-2 px-4'>
             <p className='text-secondary text-base'>Medical Services</p>

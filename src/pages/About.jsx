@@ -18,6 +18,11 @@ import vision6 from '../assets/vision6.png'
 
 import Slogan from '../components/Slogan'
 
+import work5 from '../assets/work1.png'
+import work6 from '../assets/work2.png'
+import work7 from '../assets/work3.png'
+import OurWork from '../components/OurWork'
+
 
 
 
@@ -29,9 +34,9 @@ const About = () => {
 
       {/* header section */}
 
-      <header className='bg-header pt-60 h-screen'>
+      <header className='bg-header pt-60 h-screen'>   
 
-<div className='max-w-5xl mx-auto container '>
+<div className='max-w-6xl mx-auto container '>
    <h2 className='text-primary text-[65px] mb-2 font-bold leading-[60px]'>WHERE IDEAS </h2>
    <h2  className='text-primary text-[65px] font-bold leading-[60px]'>MEET EXCELLENCE</h2>
 
@@ -50,11 +55,11 @@ const About = () => {
 
    {/* about */}
 
-   <section className=' max-w-5xl container mx-auto py-16 '>
+   <section className=' max-w-6xl container mx-auto py-16 '>
 
 
 
- <h3 className='text-[150px] text-gray-200 font-bold mt-10'>ABOUT</h3>
+ <h3 className='text-[150px] text-gray-200 font-bold '>ABOUT</h3>
 
  <p className='text-primary   font-bold mb-2 text-[25px]'>Crafting Innovation with Passion</p>
  <p className='text-secondary text-[20px] font-bold'>We don’t just create products; we infuse them with soul, creativity, and a commitment to pushing the boundaries of what's possible in design & development process.</p>
@@ -114,11 +119,11 @@ const About = () => {
 
        {/* vision */}
 
-   <section className=' max-w-5xl container mx-auto py-16 '>
+   <section className='py-10 max-w-6xl container mx-auto  '>
 
 
 
-<h3 className='text-[150px] text-gray-200 font-bold mt-10'>VISION</h3>
+<h3 className='text-[150px] text-gray-200 font-bold '>VISION</h3>
 
 <p className='text-primary   font-bold mb-2 text-[25px]'>Innovation Through Tech</p>
 <p className='text-secondary text-[20px] font-bold'>Solving product or market needs through use of technology during product development process.
@@ -128,7 +133,7 @@ const About = () => {
 
  {/* icon cards */}
 
-<div className='mt-20 py-10  flex flex-wrap justify-between items-center gap-y-28 '>
+<div className=' py-24  flex flex-wrap justify-between items-center gap-y-36 '>
 
    {/* first card */}
 
@@ -205,7 +210,7 @@ const About = () => {
 
 
 
-  <div className='mt-40 boredr-t border border-secondary'></div>
+ 
 
 
 
@@ -221,26 +226,7 @@ const About = () => {
     {/* our work */}
 
 
-    <section className='py-20 px-10 container mx-auto bg-[#F9F9F9] '>
-
-
-       <h3 className='text-primary text-[45px] font-bold   '>Our Work</h3>
-
-
-    {/* cards */}
-
-    <div className='mt-8 bg-[#F9F9F9] flex flex-wrap  gap-1 justify-between items-center'>
-
-<img className='rounded-xl' src="https://placehold.co/300x300" alt="" />
-<img className='rounded-xl' src="https://placehold.co/300x300" alt="" />
-<img className='rounded-xl' src="https://placehold.co/300x300" alt="" />
-<img className='rounded-xl' src="https://placehold.co/300x300" alt="" />
-
-    </div>
-
-   
-
-   </section>
+<OurWork />
 
 
 

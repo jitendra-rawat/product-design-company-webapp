@@ -15,11 +15,11 @@ const Clients = () => {
 
 <div className='flex flex-wrap justify-between items-center mt-8 px-4'>
 
-    <img className='object-cover' src={image1} alt="" />
-    <img className='object-cover' src={image2} alt="" />
-    <img className='object-cover' src={image3} alt="" />
-    <img className='object-cover' src={image4} alt="" />
-    <img className='object-cover' src={image5} alt="" />
+    <img className='object-cover w-[143px]' src={image1} alt="" />
+    <img className='object-cover w-[280px]' src={image2} alt="" />
+    <img className='object-cover w-[117px]' src={image3} alt="" />
+    <img className='object-cover w-[226px]' src={image4} alt="" />
+    <img className='object-cover w-[389px]' src={image5} alt="" />
 
 </div>
 

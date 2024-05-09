@@ -18,6 +18,9 @@ import vision6 from '../assets/vision6.png'
 
 import Slogan from '../components/Slogan'
 
+import clients from '../components/Clients'
+
+
 import md1 from '../assets/md1.png'
 import md2 from '../assets/md2.png'
 import md3 from '../assets/md3.png'
@@ -49,6 +52,9 @@ import cp3 from '../assets/cp3.png'
 import cp4 from '../assets/cp4.png'
 import cp5 from '../assets/cp4.png'
 
+import a1 from '../assets/a1.png'
+import Clients from '../components/Clients'
+import Contact from '../components/Contact'
 
 
 
@@ -61,7 +67,7 @@ const WorkPage = () => {
 
       <header className='bg-header pt-60 h-screen'>
 
-<div className='max-w-5xl mx-auto container '>
+<div className='max-w-6xl mx-auto container '>
    <h2 className='text-primary text-[65px] mb-2 font-bold leading-[60px]'>YOUR INNOVATION</h2>
    <h2  className='text-primary text-[65px] font-bold leading-[60px]'>OUR EXECUTION</h2>
 
@@ -80,11 +86,11 @@ const WorkPage = () => {
 
    {/* about */}
 
-   <section className=' max-w-5xl container mx-auto py-16 '>
+   <section className=' max-w-6xl container mx-auto py-16 '>
 
 
 
- <h3 className='text-[150px] text-gray-200 font-bold mt-10'>OUR WORK</h3>
+ <h3 className='text-[150px] text-gray-200 font-bold '>OUR WORK</h3>
 
  <p className='text-primary   font-bold mb-2 text-[25px]'>Dive into a world where ideas come to life</p>
  <p className='text-secondary text-[20px] font-bold'>Explore a curated collection of projects that reflect our commitment to pushing the envelope of design, whether it's shaping the future of Healthcare, revolutionizing consumer electronics, or enhancing the functionality of appliances.</p>
@@ -186,8 +192,6 @@ const WorkPage = () => {
 
 
   {/* consumer products */}
-
-
   <section className='py-20 px-10 container mx-auto bg-[#F9F9F9] '>
 
 
@@ -196,13 +200,41 @@ const WorkPage = () => {
 
 {/* cards */}
 
-<div className='mt-8  bg-[#F9F9F9] flex flex-wrap space-y-4 justify-between items-center'>
+<div className='mt-8 bg-[#F9F9F9] flex flex-wrap space-y-4 justify-between items-center'>
 
-<img className='rounded-xl w-[286px] object-cover' src={cp1} alt="" />
-<img className='rounded-xl w-[286px] object-cover' src={cp2} alt="" />
-<img className='rounded-xl w-[286px] object-cover' src={cp3} alt="" />
-<img className='rounded-xl w-[286px] object-cover' src={cp4} alt="" />
-<img className='rounded-xl w-[286px] object-cover' src={cp5} alt="" />
+<img className='rounded-xl w-[450px] object-cover' src={cp1} alt="" />
+<img className='rounded-xl w-[450px] object-cover' src={cp2} alt="" />
+<img className='rounded-xl w-[450px] object-cover' src={cp3} alt="" />
+<img className='rounded-xl w-[450px] object-cover' src={cp4} alt="" />
+<img className='rounded-xl w-[450px] object-cover' src={cp4} alt="" />
+<img className='rounded-xl w-[450px] object-cover' src={cp4} alt="" />
+
+
+</div>
+
+
+
+</section>
+
+
+  {/* applicances */}
+
+  <section className='py-20 px-10 container mx-auto bg-[#F9F9F9] '>
+
+
+<h3 className='text-primary text-[45px] font-bold   '>APPLIANCES</h3>
+
+
+{/* cards */}
+
+<div className='mt-8 bg-[#F9F9F9] flex flex-wrap space-y-4 justify-between items-center'>
+
+<img className='rounded-xl w-[450px] object-cover' src={a1} alt="" />
+<img className='rounded-xl w-[450px] object-cover' src={a1} alt="" />
+<img className='rounded-xl w-[450px] object-cover' src={a1} alt="" />
+<img className='rounded-xl w-[450px] object-cover' src={a1} alt="" />
+<img className='rounded-xl w-[450px] object-cover' src={a1} alt="" />
+<img className='rounded-xl w-[450px] object-cover' src={a1} alt="" />
 
 
 </div>
@@ -213,11 +245,21 @@ const WorkPage = () => {
 
 
 
+  {/* clients  */}
+
+ <Clients />
+
 
 
   {/* slogan */}
 
   <Slogan />
+
+
+   {/* Contact */}
+   
+
+   <Contact />
 
 
 
