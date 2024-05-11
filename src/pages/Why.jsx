@@ -27,7 +27,7 @@ const Why = () => {
 
       <header className='bg-header pt-60 h-screen'>
 
-<div className='max-w-6xl mx-auto container '>
+<div className='max-w-xs md:max-w-md lg:max-w-2xl xl:max-w-4xl 2xl:max-w-6xl mx-auto container '>
    <h2 className='text-primary text-[65px] mb-2 font-bold leading-[60px]'>DESIGNING THE </h2>
    <h2 className='text-primary text-[65px] mb-2 font-bold leading-[60px]'>FUTURE </h2>
    <h2  className='text-primary text-[65px] font-bold leading-[60px]'>DELIVERING TODAY</h2>
@@ -47,7 +47,7 @@ const Why = () => {
 
    {/* why us */}
 
-   <section className=' max-w-6xl container mx-auto  '>
+   <section className=' max-w-xs md:max-w-md lg:max-w-2xl xl:max-w-4xl 2xl:max-w-6xl container mx-auto  '>
 
 
 

@@ -5,7 +5,7 @@ import focus3 from '../assets/focus3.png'
 
 const Industry = () => {
   return (
-   <section className='py-20 max-w-6xl container mx-auto  '>
+   <section className='py-20 max-w-xs md:max-w-md lg:max-w-2xl xl:max-w-4xl 2xl:max-w-6xl container mx-auto  '>
 
  <div className='flex space-x-16 justify-between items-start '>
 

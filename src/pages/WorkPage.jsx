@@ -65,11 +65,11 @@ const WorkPage = () => {
 
       {/* header section */}
 
-      <header className='bg-header pt-60 h-screen'>
+      <header className='bg-header py-28 xl:py-0 xl:pt-60 xl:h-screen'>
 
-<div className='max-w-6xl mx-auto container '>
-   <h2 className='text-primary text-[65px] mb-2 font-bold leading-[60px]'>YOUR INNOVATION</h2>
-   <h2  className='text-primary text-[65px] font-bold leading-[60px]'>OUR EXECUTION</h2>
+<div className='max-w-xs md:max-w-md lg:max-w-2xl xl:max-w-4xl 2xl:max-w-6xl mx-auto container '>
+   <h2 className='text-primary text-4xl xl:text-[65px] mb-2 font-bold xl:leading-[60px]'>YOUR INNOVATION</h2>
+   <h2  className='text-primary text-4xl xl:text-[65px] font-bold xl:leading-[60px]'>OUR EXECUTION</h2>
 
 
    <button className="mt-16 bg-primary font-bold leading-[20px] text-white font-proxima text-base px-8 py-4 rounded-lg text-left flex  gap-2 items-center">
@@ -86,14 +86,14 @@ const WorkPage = () => {
 
    {/* about */}
 
-   <section className=' max-w-6xl container mx-auto py-16 '>
+   <section className=' max-w-xs md:max-w-md lg:max-w-2xl xl:max-w-4xl 2xl:max-w-6xl container mx-auto py-16 '>
 
 
 
- <h3 className='text-[150px] text-gray-200 font-bold '>OUR WORK</h3>
-
- <p className='text-primary   font-bold mb-2 text-[25px]'>Dive into a world where ideas come to life</p>
- <p className='text-secondary text-[20px] font-bold'>Explore a curated collection of projects that reflect our commitment to pushing the envelope of design, whether it's shaping the future of Healthcare, revolutionizing consumer electronics, or enhancing the functionality of appliances.</p>
+ <h3 className='text-6xl xl:text-[150px] text-gray-200 font-bold '>OUR WORK</h3>
+ 
+ <p className='text-primary   font-bold mb-2 text-2xl xl:text-[25px]'>Dive into a world where ideas come to life</p>
+ <p className='text-secondary text-base xl:text-[20px] font-bold'>Explore a curated collection of projects that reflect our commitment to pushing the envelope of design, whether it's shaping the future of Healthcare, revolutionizing consumer electronics, or enhancing the functionality of appliances.</p>
 
 
 
@@ -116,7 +116,7 @@ const WorkPage = () => {
     <section className='py-20 px-10 container mx-auto bg-[#F9F9F9] '>
 
 
-       <h3 className='text-primary text-[45px] font-bold   '>MEDICAL DEVICES</h3>
+       <h3 className='text-primary text-2xl xl:text-[45px] font-bold   '>MEDICAL DEVICES</h3>
 
 
     {/* cards */}
@@ -143,7 +143,7 @@ const WorkPage = () => {
     <section className='py-20 px-10 container mx-auto bg-[#F9F9F9] '>
 
 
-<h3 className='text-primary text-[45px] font-bold   '>LIFE SCIENCE DIAGNOSTICS</h3>
+<h3 className='text-primary text-2xl xl:text-[45px] font-bold   '>LIFE SCIENCE DIAGNOSTICS</h3>
 
 
 {/* cards */}
@@ -170,7 +170,7 @@ const WorkPage = () => {
   <section className='py-20 px-10 container mx-auto bg-[#F9F9F9] '>
 
 
-<h3 className='text-primary text-[45px] font-bold   '>CONSUMER ELECTRONICS</h3>
+<h3 className='text-primary text-2xl xl:text-[45px] font-bold   '>CONSUMER ELECTRONICS</h3>
 
 
 {/* cards */}
@@ -195,7 +195,7 @@ const WorkPage = () => {
   <section className='py-20 px-10 container mx-auto bg-[#F9F9F9] '>
 
 
-<h3 className='text-primary text-[45px] font-bold   '>CONSUMER PRODUCTS</h3>
+<h3 className='text-primary text-2xl xl:text-[45px] font-bold   '>CONSUMER PRODUCTS</h3>
 
 
 {/* cards */}
@@ -222,7 +222,7 @@ const WorkPage = () => {
   <section className='py-20 px-10 container mx-auto bg-[#F9F9F9] '>
 
 
-<h3 className='text-primary text-[45px] font-bold   '>APPLIANCES</h3>
+<h3 className='text-primary text-2xl xl:text-[45px] font-bold   '>APPLIANCES</h3>
 
 
 {/* cards */}

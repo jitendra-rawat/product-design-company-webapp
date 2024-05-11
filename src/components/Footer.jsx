@@ -14,10 +14,10 @@ const Footer = () => {
   return (
    <footer className='bg-header py-24'>
 
-    <div className='max-w-6xl mx-auto container flex  justify-between items-start'>
+    <div className='max-w-xs md:max-w-md lg:max-w-2xl xl:max-w-4xl 2xl:max-w-6xl mx-auto container flex flex-col space-y-12 xl:space-y-0 xl:flex-row  justify-between items-start'>
 
         {/* first section */}
-        <div className=' w-1/3'>
+        <div className=' xl:w-1/3'>
 
             <img src={logo} alt="" />
             <p className='text-primary font-bold text-xl text-center'>Guiding Force -  InnoCreate Global - USA</p>
@@ -103,9 +103,9 @@ const Footer = () => {
 
     </div>
 
-    <div className="max-w-6xl mx-auto container border-b border-gray-400 mt-14"></div>
+    <div className="max-w-xs md:max-w-md lg:max-w-2xl xl:max-w-4xl 2xl:max-w-6xl mx-auto container border-b border-gray-400 mt-14"></div>
 
-    <div className='max-w-6xl mx-auto container flex justify-between items-center mt-2'>
+    <div className='max-w-xs md:max-w-md lg:max-w-2xl xl:max-w-4xl 2xl:max-w-6xl mx-auto container flex flex-wrap space-y-4 xl:space-y-0 justify-between items-center mt-2'>
 
         
 

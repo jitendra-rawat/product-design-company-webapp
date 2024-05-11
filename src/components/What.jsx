@@ -12,7 +12,7 @@ const What = () => {
   const [isHoveredFourth, setIsHoveredFourth] = useState(false);
 
   return (
-    <section className='max-w-5xl mx-auto container py-24 '>
+    <section className='max-w-xs md:max-w-md lg:max-w-2xl xl:max-w-4xl 2xl:max-w-6xl   mx-auto container py-24 '>
 
       <h5 className='text-primary text-[40px] font-bold'>What</h5>
       <h5 className='text-primary text-[40px] font-bold'>We Do</h5>

@@ -13,14 +13,15 @@ const Navbar = () => {
 
   return (
     <nav className="py-4">
-      <div className="px-20 mx-auto  flex justify-between items-center">
+      <div className="px-4 mx-auto md:px-12  flex justify-between items-center">
+        
         {/* Left Section */}
         <div className="flex-shrink-0">
        <Link to={'/'}>  <img className='object-cover w-[250px]' src={logo} alt="Logo" /> </Link> 
         </div>
 
         {/* Middle Section */}
-        <div className="hidden md:flex space-x-6">
+        <div className="hidden xl:flex space-x-6">
           <Link to={'/why-us'} className="text-[#666666] text-sm font-proxima focus:border-b-2 focus:bg-[#F5F5F5] p-2 focus:border-b-secondary">WHY US</Link>
           <Link to={'/services'} className="text-[#666666] text-sm font-proxima focus:border-b-2 focus:bg-[#F5F5F5] p-2 focus:border-b-secondary">SERVICES</Link>
           <Link to={'/our-work'} className="text-[#666666] text-sm font-proxima focus:border-b-2 focus:bg-[#F5F5F5] p-2 focus:border-b-secondary">WORK</Link>
@@ -38,7 +39,7 @@ const Navbar = () => {
         </div>
 
         {/* Hamburger Menu (Mobile) */}
-        <div className="md:hidden">
+        <div className="xl:hidden">
           <button onClick={toggleMenu} className="text-black focus:outline-none">
             <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16m-7 6h7" />

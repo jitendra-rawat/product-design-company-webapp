@@ -28,11 +28,11 @@ const ContactPage = () => {
 
       {/* header section */}
 
-<header className='bg-header pt-60 h-screen'>
+<header className='bg-header py-36 xl:py-0 xl:pt-60 xl:h-screen'>
 
-<div className='max-w-6xl mx-auto container '>
-   <h2 className='text-primary text-[65px] mb-2 font-bold leading-[60px]'>Your Growth Journey  </h2>
-   <h2  className='text-primary text-[65px] font-bold leading-[60px]'>Starts Here!</h2>
+<div className='max-w-xs md:max-w-md lg:max-w-2xl xl:max-w-4xl 2xl:max-w-6xl mx-auto container '>
+   <h2 className='text-primary text-4xl xl:text-[65px] mb-2 font-bold xl:leading-[60px]'>Your Growth Journey  </h2>
+   <h2  className='text-primary text-4xl xl:text-[65px] font-bold xl:leading-[60px]'>Starts Here!</h2>
 
 
    <button className="mt-16 bg-primary font-bold leading-[20px] text-white font-proxima text-base px-8 py-4 rounded-lg text-left flex  gap-2 items-center">
@@ -49,14 +49,14 @@ const ContactPage = () => {
 
    {/* contact */}
 
-   <section className=' max-w-6xl container mx-auto  '>
+   <section className='max-w-xs md:max-w-md lg:max-w-2xl xl:max-w-4xl 2xl:max-w-6xl container mx-auto  '>
 
 
 
- <h3 className='text-[150px] text-gray-200 font-bold mt-10'>CONTACT US</h3>
+ <h3 className='text-6xl xl:text-[150px] text-gray-200 font-bold mt-10'>CONTACT US</h3>
 
- <p className='text-primary   font-bold mb-2 text-[25px]'>Partner with us and unlock the potential of your next project.</p>
- <p className='text-secondary text-[20px] font-bold'>Join us on this journey of creativity, where every project tells a story of collaboration, passion, and relentless pursuit of excellence.</p>
+ <p className='text-primary   font-bold mb-2 text-xl xl:text-[25px]'>Partner with us and unlock the potential of your next project.</p>
+ <p className='text-secondary text-base xl:text-[20px] font-bold'>Join us on this journey of creativity, where every project tells a story of collaboration, passion, and relentless pursuit of excellence.</p>
 
 
 
@@ -64,7 +64,7 @@ const ContactPage = () => {
    {/* contact details */}
 
 
-    <div className='mt-8 flex items-start justify-between'>
+    <div className='mt-8 flex flex-col space-y-12 xl:space-y-0 xl:flex-row  items-start justify-between'>
 
 
        {/* left side */}
@@ -151,7 +151,7 @@ const ContactPage = () => {
 
 
 
-   <div className='mt-40 boredr-t border border-secondary'></div>
+   <div className='mt-28 boredr-t border border-secondary'></div>
 
 
 

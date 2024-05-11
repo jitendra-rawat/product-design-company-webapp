@@ -34,11 +34,11 @@ const About = () => {
 
       {/* header section */}
 
-      <header className='bg-header pt-60 h-screen'>   
+      <header className='bg-header py-28 xl:pt-60 xl:h-screen'>   
 
-<div className='max-w-6xl mx-auto container '>
-   <h2 className='text-primary text-[65px] mb-2 font-bold leading-[60px]'>WHERE IDEAS </h2>
-   <h2  className='text-primary text-[65px] font-bold leading-[60px]'>MEET EXCELLENCE</h2>
+<div className='max-w-xs md:max-w-md lg:max-w-2xl xl:max-w-4xl 2xl:max-w-6xl mx-auto container '>
+   <h2 className='text-primary text-6xl xl:text-[65px] mb-2 font-bold leading-[60px]'>WHERE IDEAS </h2>
+   <h2  className='text-primary text-6xl xl:text-[65px] font-bold leading-[60px]'>MEET EXCELLENCE</h2>
 
 
    <button className="mt-16 bg-primary font-bold leading-[20px] text-white font-proxima text-base px-8 py-4 rounded-lg text-left flex  gap-2 items-center">
@@ -55,37 +55,38 @@ const About = () => {
 
    {/* about */}
 
-   <section className=' max-w-6xl container mx-auto py-16 '>
+   <section className='max-w-xs md:max-w-md lg:max-w-2xl xl:max-w-4xl 2xl:max-w-6xl container mx-auto py-16 '>
 
 
 
- <h3 className='text-[150px] text-gray-200 font-bold '>ABOUT</h3>
+ <h3 className='text-6xl  xl:text-[150px] text-gray-200 font-bold '>ABOUT</h3>
 
- <p className='text-primary   font-bold mb-2 text-[25px]'>Crafting Innovation with Passion</p>
- <p className='text-secondary text-[20px] font-bold'>We don’t just create products; we infuse them with soul, creativity, and a commitment to pushing the boundaries of what's possible in design & development process.</p>
+ <p className='text-primary   font-bold mb-2 text-xl xl:text-[25px]'>Crafting Innovation with Passion</p>
+ <p className='text-secondary text-base xl:text-[20px] font-bold'>We don’t just create products; we infuse them with soul, creativity, and a commitment to pushing the boundaries of what's possible in design & development process.</p>
 
 
 
   {/* icon cards */}
 
-<div className='mt-20 py-10  flex justify-between items-center '>
+<div className='xl:mt-20 py-10  flex flex-wrap justify-between items-center gap-y-36 '>
 
     {/* first card */}
 
     <div className='w-[300px] h-[400px]'>
 <img className='w-[80px] h-[80px]' src={about1} alt="" />
-<h5 className='text-[32px] font-bold text-primary mt-4 leading-snug'>Global Reach, Local Presence
+<h5 className='text-[32px] font-bold text-primary mt-4 leading-[30px]'>Global Reach, Local Presence
 
 </h5>
-<p className=' text-primary text-[20px] font-bold mt-2 leading-snug' >While our roots may be local, our reach is global. Whether you're a small startup or a multinational corporation, you can count on us to provide personalized service and world-class design solutions that transcend borders and drive success on a global scale.</p>
+<p className=' text-primary text-[20px] font-bold mt-6 leading-snug' >While our roots may be local, our reach is global. Whether you're a small startup or a multinational corporation, you can count on us to provide personalized service and world-class design solutions that transcend borders and drive success on a global scale.</p>
     </div>
 
         {/* second card */}
 
         <div className='w-[300px] h-[400px]'>
 <img className='w-[80px] h-[80px]' src={about2} alt="" />
-<h5 className='text-[32px] font-bold text-primary mt-4 leading-snug'>Efficient Development </h5>
-<p className=' text-primary text-[20px] font-bold mt-2 leading-snug' >We streamline the product development process, saving our clients time, resources, and effort. From initial ideation to final production, we employ efficient workflows and utilize advanced technologies to accelerate project timelines without compromising quality. </p>
+<h5 className='text-[32px] font-bold text-primary mt-4 leading-[30px]'>Multidisciplinary Expertise
+ </h5>
+<p className=' text-primary text-[20px] font-bold mt-6 leading-snug' >We bring together a diverse team of multidisciplinary experts with backgrounds in industrial design, engineering, and manufacturing. This convergence of talents allows us to approach projects from various angles, blending creativity with technical expertise to deliver holistic solutions that are both innovative and practical. </p>
     </div>
 
 
@@ -93,9 +94,9 @@ const About = () => {
 
     <div className='w-[300px] h-[400px]'>
 <img className='w-[80px] h-[80px]' src={about3} alt="" />
-<h5 className='text-[32px] font-bold text-primary mt-4 leading-snug'>Multidisciplinary Expertise
+<h5 className='text-[32px] font-bold text-primary mt-4 leading-[30px]'>Commitment to Excellence 
  </h5>
-<p className=' text-primary text-[20px] font-bold mt-2 leading-snug' >We bring together a diverse team of multidisciplinary experts with backgrounds in industrial design, engineering, and manufacturing. This convergence of talents allows us to approach projects from various angles, blending creativity with technical expertise to deliver holistic solutions that are both innovative and practical.</p>
+<p className=' text-primary text-[20px] font-bold mt-6 leading-snug' >Excellence is our standard, and we hold ourselves to the highest level of quality in everything we do. We ensure that our designs remain cutting-edge, relevant, and impactful in an ever-changing world. Innovation is not a destination; it's a journey.</p>
     </div>
 
 
@@ -106,12 +107,6 @@ const About = () => {
    <div className='mt-40 boredr-t border border-secondary'></div>
 
 
-
-
-       
-
-
-
   </section>
 
 
@@ -119,14 +114,14 @@ const About = () => {
 
        {/* vision */}
 
-   <section className='py-10 max-w-6xl container mx-auto  '>
+   <section className='py-10 max-w-xs md:max-w-md lg:max-w-2xl xl:max-w-4xl 2xl:max-w-6xl container mx-auto  '>
 
 
 
-<h3 className='text-[150px] text-gray-200 font-bold '>VISION</h3>
+<h3 className='text-6xl xl:text-[150px] text-gray-200 font-bold '>VISION</h3>
 
-<p className='text-primary   font-bold mb-2 text-[25px]'>Innovation Through Tech</p>
-<p className='text-secondary text-[20px] font-bold'>Solving product or market needs through use of technology during product development process.
+<p className='text-primary   font-bold mb-2 text-xl xl:text-[25px]'>Innovation Through Tech</p>
+<p className='text-secondary text-base xl:text-[20px] font-bold'>Solving product or market needs through use of technology during product development process.
 </p>
 
 
@@ -139,20 +134,20 @@ const About = () => {
 
    <div className='w-[300px] h-[400px]'>
 <img className='w-[80px] h-[80px]' src={vision1} alt="" />
-<h5 className='text-[32px] font-bold text-primary mt-4 leading-snug'>Supporting Startups and Entrepreneurs
+<h5 className='text-[32px] font-bold text-primary mt-4 leading-none'>Supporting Startups and Entrepreneurs
 
 
 
 </h5>
-<p className=' text-primary text-[20px] font-bold mt-2 leading-snug' >By nurturing the startup ecosystem, we are committed to supporting startups and entrepreneurs on their journey to success. we provide the resources and support needed to turn innovative ideas into viable businesses.</p>
+<p className=' text-primary text-[20px] font-bold mt-4 leading-snug' >By nurturing the startup ecosystem, we are committed to supporting startups and entrepreneurs on their journey to success. we provide the resources and support needed to turn innovative ideas into viable businesses.</p>
    </div>
 
        {/* second card */}
 
        <div className='w-[300px] h-[400px]'>
 <img className='w-[80px] h-[80px]' src={vision2} alt="" />
-<h5 className='text-[32px] font-bold text-primary mt-4 leading-snug'>Driving Innovation Growth </h5>
-<p className=' text-primary text-[20px] font-bold mt-2 leading-snug' >Through our cutting-edge design solutions, strategic partnerships, and thought leadership initiatives, we aim to catalyze innovation, foster entrepreneurship, and propel onto the global stage as a leader in industrial design and innovation. </p>
+<h5 className='text-[32px] font-bold text-primary mt-4 leading-none'>Driving Innovation Growth </h5>
+<p className=' text-primary text-[20px] font-bold mt-4 leading-snug' >Through our cutting-edge design solutions, strategic partnerships, and thought leadership initiatives, we aim to catalyze innovation, foster entrepreneurship, and propel onto the global stage as a leader in industrial design and innovation. </p>
    </div>
 
 
@@ -160,9 +155,9 @@ const About = () => {
 
    <div className='w-[300px] h-[400px]'>
 <img className='w-[80px] h-[80px]' src={vision3} alt="" />
-<h5 className='text-[32px] font-bold text-primary mt-4 leading-snug'>Empowerment Through Design
+<h5 className='text-[32px] font-bold text-primary mt-4 leading-none'>Empowerment Through Design
 </h5>
-<p className=' text-primary text-[20px] font-bold mt-2 leading-snug' >Through our cutting-edge design solutions, strategic partnerships, and thought leadership initiatives, we aim to catalyze innovation, foster entrepreneurship, and propel onto the global stage as a leader in industrial design and innovation.</p>
+<p className=' text-primary text-[20px] font-bold mt-4 leading-snug' >Through our cutting-edge design solutions, strategic partnerships, and thought leadership initiatives, we aim to catalyze innovation, foster entrepreneurship, and propel onto the global stage as a leader in industrial design and innovation.</p>
    </div>
 
 
@@ -171,9 +166,9 @@ const About = () => {
 
         <div className='w-[300px] h-[400px] '>
 <img className='w-[80px] h-[80px]' src={vision4} alt="" />
-<h5 className='text-[32px] font-bold text-primary mt-4 leading-snug'>Design-Led Sustainability
+<h5 className='text-[32px] font-bold text-primary mt-4 leading-none'>Design-Led Sustainability
 </h5>
-<p className=' text-primary text-[20px] font-bold mt-2 leading-snug' >We are committed to integrating sustainability principles into our design processes, from material selection and manufacturing techniques to end-of-life considerations.</p>
+<p className=' text-primary text-[20px] font-bold mt-4 leading-snug' >We are committed to integrating sustainability principles into our design processes, from material selection and manufacturing techniques to end-of-life considerations.</p>
    </div>   
 
 
@@ -181,10 +176,10 @@ const About = () => {
 
         <div className='w-[300px] h-[400px] '>
 <img className='w-[80px] h-[80px]' src={vision5} alt="" />
-<h5 className='text-[32px] font-bold text-primary mt-4 leading-snug'>Collaboration and Partnership
+<h5 className='text-[32px] font-bold text-primary mt-4 leading-none'>Collaboration and Partnership
 
 </h5>
-<p className=' text-primary text-[20px] font-bold mt-2 leading-snug' >From project kickoff to final delivery, we work hand in hand with our clients to understand their goals, align on objectives, and co-create solutions that exceed expectations. we leverage the collective expertise and insights of our team and partners to bring our clients' visions to life.
+<p className=' text-primary text-[20px] font-bold mt-4 leading-snug' >From project kickoff to final delivery, we work hand in hand with our clients to understand their goals, align on objectives, and co-create solutions that exceed expectations. we leverage the collective expertise and insights of our team and partners to bring our clients' visions to life.
 </p>
    </div>   
 
@@ -194,10 +189,10 @@ const About = () => {
 
         <div className='w-[300px] h-[400px] '>
 <img className='w-[80px] h-[80px]' src={vision6} alt="" />
-<h5 className='text-[32px] font-bold text-primary mt-4 leading-snug'>Attention to Detail and Craftsmanship
+<h5 className='text-[32px] font-bold text-primary mt-4 leading-none'>Attention to Detail and Craftsmanship
 
 </h5>
-<p className=' text-primary text-[20px] font-bold mt-2 leading-snug' >Our commitment to craftsmanship shines through in the quality of our workmanship, the precision of our engineering, and the refinement of our aesthetics. Excellence is in the details, and we leave no stone unturned in our pursuit of perfection.</p>
+<p className=' text-primary text-[20px] font-bold mt-4 leading-snug' >Our commitment to craftsmanship shines through in the quality of our workmanship, the precision of our engineering, and the refinement of our aesthetics. Excellence is in the details, and we leave no stone unturned in our pursuit of perfection.</p>
    </div>   
 
 

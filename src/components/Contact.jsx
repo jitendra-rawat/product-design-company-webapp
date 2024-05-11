@@ -20,20 +20,21 @@ const Contact = () => {
     
 
   return (
-   <section className='py-20 max-w-6xl mx-auto container flex items-start justify-between'>
+   <section className='py-20 max-w-xs md:max-w-md lg:max-w-2xl xl:max-w-4xl 2xl:max-w-6xl mx-auto container flex flex-col xl:flex-row space-y-20 xl:space-y-0 items-start justify-between'>
 
     {/* left section */}
-    <div className='flex-1'>
-        <h3 className='text-[100px] leading-[100px] text-[#D6D6D6] font-bold '>LET'S <br /> CONNECT</h3>
-        <p className='text-[55px] leading-[60px] text-primary font-bold mt-2 '>Design in India, <br /> for the world !</p>
+    <div className='w-full xl:flex-1'>
+        <h3 className='text-6xl xl:text-[100px] xl:leading-[100px] text-[#D6D6D6] font-bold '>LET'S <br /> CONNECT</h3>
+        <p className='text-4xl xl:text-[55px] xl:leading-[60px] text-primary font-bold mt-2 '>Design in India, <br /> for the world !</p>
 
     </div>
 
 
      {/* right section */}
-     <div className='flex-1'>
+     <div className='w-full xl:flex-1'>
 
-     <form className="max-w-lg mx-auto " >
+     <form className=" xl:max-w-lg mx-auto " >
+
       <div className="mb-4">
         <label className="block text-primary text-sm font-bold mb-2" htmlFor="name">Name</label>
         <input
@@ -109,6 +110,8 @@ const Contact = () => {
 
         
         </div>
+
+
 
    </section>
   )

@@ -10,10 +10,10 @@ const Clients = () => {
   return (
     <section className='py-20 px-10 container mx-auto  '>
 
-<h3 className='text-[45px] text-primary leading-snug font-bold'>Our Clients</h3>
+<h3 className='text-2xl xl:text-[45px] text-primary leading-snug font-bold'>Our Clients</h3>
 
 
-<div className='flex flex-wrap justify-between items-center mt-8 px-4'>
+<div className='flex flex-wrap space-y-20 xl:space-y-0 justify-between items-center mt-8 px-4'>
 
     <img className='object-cover w-[143px]' src={image1} alt="" />
     <img className='object-cover w-[280px]' src={image2} alt="" />

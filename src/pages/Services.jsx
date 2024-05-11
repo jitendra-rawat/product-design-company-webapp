@@ -42,11 +42,11 @@ const Services = () => {
 
       {/* header section */}
 
-      <header className='bg-header pt-60 h-screen'>
+      <header className='bg-header py-28 xl:pt-60 xl:h-screen'>
 
-<div className='max-w-6xl mx-auto container '>
-   <h2 className='text-primary text-[65px] mb-2 font-bold leading-[60px]'>EMPOERING INNOVTORS</h2>
-   <h2  className='text-primary text-[65px] font-bold leading-[60px]'>DESIGNING DREAMS</h2>
+<div className='max-w-xs md:max-w-md lg:max-w-2xl xl:max-w-4xl  2xl:max-w-6xl mx-auto container '>
+   <h2 className='text-primary text-5xl xl:text-[65px] mb-2 font-bold xl:leading-[60px]'>EMPOERING INNOVTORS</h2>
+   <h2  className='text-primary text-5xl xl:text-[65px] font-bold xl:leading-[60px]'>DESIGNING DREAMS</h2>
 
 
    <button className="mt-16 bg-primary font-bold leading-[20px] text-white font-proxima text-base px-8 py-4 rounded-lg text-left flex  gap-2 items-center">
@@ -63,45 +63,45 @@ const Services = () => {
 
    {/* services */}
 
-   <section className=' max-w-5xl container mx-auto  '>
+   <section className=' max-w-xs md:max-w-md lg:max-w-2xl xl:max-w-4xl  2xl:max-w-6xl container mx-auto  '>
 
 
 
- <h3 className='text-[150px] text-gray-200 font-bold mt-10'>SERVICES</h3>
+ <h3 className='text-6xl xl:text-[150px] text-gray-200 font-bold mt-10'>SERVICES</h3>
 
- <p className='text-primary   font-bold mb-2 text-[25px]'>We take your ideas to Market</p>
- <p className='text-secondary text-[20px] font-bold'>InnoCreate is a group of passionate individuals united in our mission to deliver great sustainable products, make a positive impact on human lives and have fun along the way.</p>
+ <p className='text-primary   font-bold mb-2 text-xl xl:text-[25px]'>We take your ideas to Market</p>
+ <p className='text-secondary text-base xl:text-[20px] font-bold'>InnoCreate is a group of passionate individuals united in our mission to deliver great sustainable products, make a positive impact on human lives and have fun along the way.</p>
 
 
 
   {/* icon cards */}
 
-<div className='mt-20 py-10  flex justify-between items-center '>
+<div className='mt-20 py-10  flex flex-wrap  space-y-20 justify-between items-center '>
 
     {/* first card */}
 
-    <div className='w-[300px] h-[400px]'>
-<img className='w-[80px] h-[80px]' src={services1} alt="" />
-<h5 className='text-[32px] font-bold text-primary mt-4 leading-snug'>innovative
+    <div className='w-[300px] xl:w-[280px]  h-[400px]'>
+<img className='w-[80px] h-[80px] object-cover' src={services1} alt="" />
+<h5 className='text-[32px] font-bold text-primary mt-6  uppercase leading-none'>innovative
 solutions</h5>
-<p className=' text-primary text-[20px] font-bold mt-2 leading-snug' >Our studio specializes in delivering innovative design solutions tailored to the unique needs and challenges of our clients. By combining creativity with technical expertise, we conceptualize and develop products that stand out in the market, captivate consumers, and drive business growth</p>
+<p className=' text-primary text-[20px] font-bold mt-8 leading-snug' >Our studio specializes in delivering innovative design solutions tailored to the unique needs and challenges of our clients. By combining creativity with technical expertise, we conceptualize and develop products that stand out in the market, captivate consumers, and drive business growth</p>
     </div>
 
         {/* second card */}
 
-        <div className='w-[300px] h-[400px]'>
+        <div className='w-[300px] xl:w-[280px] h-[400px]'>
 <img className='w-[80px] h-[80px]' src={services2} alt="" />
-<h5 className='text-[32px] font-bold text-primary mt-4 leading-snug'>Efficient Development </h5>
-<p className=' text-primary text-[20px] font-bold mt-2 leading-snug' >We streamline the product development process, saving our clients time, resources, and effort. From initial ideation to final production, we employ efficient workflows and utilize advanced technologies to accelerate project timelines without compromising quality. </p>
+<h5 className='text-[32px] font-bold text-primary mt-6 leading-none'>Efficient Development </h5>
+<p className=' text-primary text-[20px] font-bold mt-8 leading-snug' >We streamline the product development process, saving our clients time, resources, and effort. From initial ideation to final production, we employ efficient workflows and utilize advanced technologies to accelerate project timelines without compromising quality. </p>
     </div>
 
 
          {/* third card */}
 
-    <div className='w-[300px] h-[400px]'>
+    <div className='w-[300px] xl:w-[280px] h-[400px]'>
 <img className='w-[80px] h-[80px]' src={services3} alt="" />
-<h5 className='text-[32px] font-bold text-primary mt-4 leading-snug'>Comprehensive Expertise</h5>
-<p className=' text-primary text-[20px] font-bold mt-2 leading-snug' >With a multidisciplinary team of industrial designers, engineers, and strategists, our studio offers comprehensive expertise across all stages of the design process. Whether it's product design, user experience optimization, or manufacturing support, we have the skills and knowledge to deliver holistic solutions that meet our clients' objectives.</p>
+<h5 className='text-[32px] font-bold text-primary mt-6 leading-none'>Comprehensive Expertise</h5>
+<p className=' text-primary text-[20px] font-bold mt-8 leading-snug' >With a multidisciplinary team of industrial designers, engineers, and strategists, our studio offers comprehensive expertise across all stages of the design process. Whether it's product design, user experience optimization, or manufacturing support, we have the skills and knowledge to deliver holistic solutions that meet our clients' objectives.</p>
     </div>
 
 
@@ -109,23 +109,24 @@ solutions</h5>
 </div>
 
 
-   <div className='mt-36 boredr-t border-2 border-secondary'></div>
+   <div className='mt-48 boredr-t border border-secondary'></div>
 
 
 
      {/* service cards */}
 
 
-   <div className='flex flex-wrap space-y-8 justify-between items-center py-20'>
+   <div className='mt-24 flex flex-wrap gap-y-16 justify-between items-center py-20'>
+
 
     {/* first card */}
 
-    <div className='w-[300px]'>
+    <div className='w-[350px] h-[450px]'>
 
-        <img className='' src={s1} alt="" />
-        <div className='bg-primary p-4'>
+        <img className='w-[350px] h-[250px] object-cover' src={s1} alt="" />
+        <div className='bg-primary p-8'>
             <img className='mx-auto ' src={si1} alt="" />
-            <p className='text-[25px] text-white text-center'>PROJECT 
+            <p className='text-[20px] text-white text-center'>PROJECT 
 CONSULTATION</p>
 
         </div>
@@ -135,13 +136,12 @@ CONSULTATION</p>
 
      {/* second card */}
 
-     <div className='w-[300px]'>
+     <div className='w-[350px] h-[450px]'>
 
-<img className='' src={s1} alt="" />
-<div className='bg-primary p-4'>
-    <img className='mx-auto ' src={si1} alt="" />
-    <p className='text-[25px] text-white text-center'>PROJECT 
-CONSULTATION</p>
+<img className='w-[350px] h-[250px] object-cover' src={s2} alt="" />
+<div className='bg-primary p-8'>
+    <img className='mx-auto ' src={si2} alt="" />
+    <p className='text-[20px] text-white text-center'>IP CONSULTATION</p>
 
 </div>
 
@@ -151,13 +151,13 @@ CONSULTATION</p>
 
  {/* third card */}
 
- <div className='w-[300px]'>
+ <div className='w-[350px] h-[450px]'>
 
-<img className='' src={s1} alt="" />
-<div className='bg-primary p-4'>
-    <img className='mx-auto ' src={si1} alt="" />
-    <p className='text-[25px] text-white text-center'>PROJECT 
-CONSULTATION</p>
+<img className='w-[350px] h-[250px] object-cover' src={s3} alt="" />
+<div className='bg-primary p-8'>
+    <img className='mx-auto ' src={si3} alt="" />
+    <p className='text-[20px] text-white text-center'>STRATEGY 
+DEVELOPMENT</p>
 
 </div>
 
@@ -166,13 +166,13 @@ CONSULTATION</p>
 
  {/* fourth card */}
 
- <div className='w-[300px]'>
+ <div className='w-[350px] h-[450px]'>
 
-<img className='' src={s1} alt="" />
-<div className='bg-primary p-4'>
-    <img className='mx-auto ' src={si1} alt="" />
-    <p className='text-[25px] text-white text-center'>PROJECT 
-CONSULTATION</p>
+<img className='w-[350px] h-[250px] object-cover' src={s4} alt="" />
+<div className='bg-primary p-8'>
+    <img className='mx-auto ' src={si4} alt="" />
+    <p className='text-[20px] text-white text-center'>DESIGN 
+RESEARCH</p>
 
 </div>
 
@@ -181,13 +181,13 @@ CONSULTATION</p>
 
  {/* fifth card */}
 
- <div className='w-[300px]'>
+ <div className='w-[350px] h-[450px]'>
 
-<img className='' src={s1} alt="" />
-<div className='bg-primary p-4'>
-    <img className='mx-auto ' src={si1} alt="" />
-    <p className='text-[25px] text-white text-center'>PROJECT 
-CONSULTATION</p>
+<img className='w-[350px] h-[250px] object-cover' src={s5} alt="" />
+<div className='bg-primary p-8'>
+    <img className='mx-auto ' src={si5} alt="" />
+    <p className='text-[20px] text-white text-center'>INDUSTRIAL
+DESIGN</p>
 
 </div>
 
@@ -196,13 +196,13 @@ CONSULTATION</p>
 
  {/* sizth card */}
 
- <div className='w-[300px]'>
+ <div className='w-[350px] h-[450px]'>
 
-<img className='' src={s1} alt="" />
-<div className='bg-primary p-4'>
-    <img className='mx-auto ' src={si1} alt="" />
-    <p className='text-[25px] text-white text-center'>PROJECT 
-CONSULTATION</p>
+<img className='w-[350px] h-[250px] object-cover' src={s6} alt="" />
+<div className='bg-primary p-8'>
+    <img className='mx-auto ' src={si6} alt="" />
+    <p className='text-[20px] text-white text-center'>EXPERIENCE
+DESIGN</p>
 
 </div>
 
@@ -212,13 +212,12 @@ CONSULTATION</p>
 
   {/* first card */}
 
-  <div className='w-[300px]'>
+  <div className='w-[350px] h-[450px]'>
 
-<img className='' src={s1} alt="" />
-<div className='bg-primary p-4'>
-    <img className='mx-auto ' src={si1} alt="" />
-    <p className='text-[25px] text-white text-center'>PROJECT 
-CONSULTATION</p>
+<img className='w-[350px] h-[250px] object-cover' src={s7} alt="" />
+<div className='bg-primary p-8'>
+    <img className='mx-auto ' src={si7} alt="" />
+    <p className='text-[20px] text-white text-center'>3D DESIGN </p>
 
 </div>
 
@@ -227,13 +226,12 @@ CONSULTATION</p>
 
 {/* second card */}
 
-<div className='w-[300px]'>
+<div className='w-[350px] h-[450px]'>
 
-<img className='' src={s1} alt="" />
-<div className='bg-primary p-4'>
-<img className='mx-auto ' src={si1} alt="" />
-<p className='text-[25px] text-white text-center'>PROJECT 
-CONSULTATION</p>
+<img className='w-[350px] h-[250px] object-cover' src={s8} alt="" />
+<div className='bg-primary p-8'>
+<img className='mx-auto ' src={si8} alt="" />
+<p className='text-[20px] text-white text-center'>PROTOTYPING</p>
 
 </div>
 
@@ -243,13 +241,13 @@ CONSULTATION</p>
 
 {/* third card */}
 
-<div className='w-[300px]'>
+<div className='w-[350px] h-[450px]'>
 
-<img className='' src={s1} alt="" />
+<img className='w-[350px] h-[250px] object-cover' src={s9} alt="" />
 <div className='bg-primary p-4'>
-<img className='mx-auto ' src={si1} alt="" />
-<p className='text-[25px] text-white text-center'>PROJECT 
-CONSULTATION</p>
+<img className='mx-auto ' src={si9} alt="" />
+<p className='text-[20px] text-white text-center '>MULTI-DISCIPLINARY
+ENGINEERING</p>
 
 </div>
 
@@ -258,13 +256,13 @@ CONSULTATION</p>
 
 {/* fourth card */}
 
-<div className='w-[300px]'>
+<div className='w-[350px] h-[450px]'>
 
-<img className='' src={s1} alt="" />
-<div className='bg-primary p-4'>
-<img className='mx-auto ' src={si1} alt="" />
-<p className='text-[25px] text-white text-center'>PROJECT 
-CONSULTATION</p>
+<img className='w-[350px] h-[250px] object-cover' src={s10} alt="" />
+<div className='bg-primary p-8'>
+<img className='mx-auto ' src={si10} alt="" />
+<p className='text-[20px] text-white text-center'>TRANSFER TO 
+MANUFACTURE</p>
 
 </div>
 
@@ -273,13 +271,12 @@ CONSULTATION</p>
 
 {/* fifth card */}
 
-<div className='w-[300px]'>
+<div className='w-[350px] h-[450px]'>
 
-<img className='' src={s1} alt="" />
-<div className='bg-primary p-4'>
-<img className='mx-auto ' src={si1} alt="" />
-<p className='text-[25px] text-white text-center'>PROJECT 
-CONSULTATION</p>
+<img className='w-[350px] h-[250px] object-cover' src={s11} alt="" />
+<div className='bg-primary p-8'>
+<img className='mx-auto ' src={si11} alt="" />
+<p className='text-[20px] text-white text-center'>MANUFACTURING</p>
 
 </div>
 
@@ -288,13 +285,13 @@ CONSULTATION</p>
 
 {/* sizth card */}
 
-<div className='w-[300px]'>
+<div className='w-[350px] h-[450px] '>
 
-<img className='' src={s1} alt="" />
-<div className='bg-primary p-4'>
-<img className='mx-auto ' src={si1} alt="" />
-<p className='text-[25px] text-white text-center'>PROJECT 
-CONSULTATION</p>
+<img className='w-[350px] h-[250px] object-cover' src={s12} alt="" />
+<div className='bg-primary p-8'>
+<img className='mx-auto ' src={si12} alt="" />
+<p className='text-[20px] text-white text-center'>PROJECT 
+MANAGEMENT</p>
 
 </div>
 
